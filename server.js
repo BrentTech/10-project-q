@@ -1,5 +1,6 @@
 'use strict';
 
+//this file instantiates the server class located in lib
 const Q = require('./lib/server.js');
 Q.start();
 
