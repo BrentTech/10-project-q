@@ -8,6 +8,6 @@ db.monitorEvent('create');
 db.monitorEvent('update');
 db.monitorEvent('delete');
 
-const network = new Q('network');
+const network = new Q('neork');
 network.monitorEvent('attack');
 network.monitorEvent('no-service');
