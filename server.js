@@ -16,5 +16,6 @@ db.monitorEvent('delete');
 
 
 const network = new Q('network');
+
 network.monitorEvent('attack');
 network.monitorEvent('no-service');
