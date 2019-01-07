@@ -13,28 +13,36 @@
 * [front-end](http://xyz.com)
 
 ### Modules
-#### `modulename.js`
+#### `server.js`
+#### `subscriber.js`
+#### `publisher.js`
+
 ##### Exported Values and Methods
+`server.js exports the server constructor which includes:
+ #####start()
+  Method that starts the server.
 
-###### `foo(thing) -> string`
-Usage Notes or examples
+ #####connect()
+ connects each event to a namespace and room.
 
-###### `bar(array) -> array`
-Usage Notes or examples
+ #####monitorEvent(event) 
+ Takes in an event and pushes it into an array for verifying if it is an allowed event.
 
 ### Setup
 #### `.env` requirements
-* `PORT` - Port Number
-* `MONGODB_URI` - URL to the running mongo instance/db
+* `PORT` - 3000
+
 
 #### Running the app
+run nodmone on all client files and the server file.
+
 * `npm start`
-* Endpoint: `/foo/bar/`
-  * Returns a JSON object with abc in it.
-* Endpoint: `/bing/zing/`
-  * Returns a JSON object with xyz in it.
+* Endpoint: `/q server connected and connecting clinet applications through the publisher and subscriber classes/`
+
 
 #### Tests
+
+Testing has not been implemented at this time.
 * How do you run tests?
 * What assertions were made?
 * What assertions need to be / should be made?

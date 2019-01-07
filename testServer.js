@@ -6,8 +6,9 @@ let database = io.of('/database');//works because server will be listening on sp
 
 
 database.on('connection', (socket)=>{
-socket.on('create',(payload)=>{
-    database.emit('create', payload)
+socket.on('join',(room, payload)=>{
+    socket.join(room, payload);
+    
 })
 })
 
