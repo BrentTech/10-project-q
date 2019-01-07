@@ -12,3 +12,4 @@ db.subscribe('create', (payload) => {
 });
 
 console.log(db.subscriptions()); 
+console.log('logger is running')
