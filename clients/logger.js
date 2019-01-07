@@ -12,4 +12,4 @@ db.subscribe('create', (payload) => {
   console.log('create happened', payload);//subscribe method will emit a connect event that 'create' will be passed.
 });
 
-console.log(db.subscriptions()); 
+// console.log(db.subscriptions()); 
