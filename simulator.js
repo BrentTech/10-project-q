@@ -1,6 +1,7 @@
 'use strict';
 
 const Publisher = require('./lib/publisher.js');
+
 const Q = new Publisher();
 
 Q.publish('database', 'delete', {id:77});
