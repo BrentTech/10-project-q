@@ -2,7 +2,7 @@
   "name": "10-project-q",
   "version": "1.0.0",
   "description": "![CF](http://i.imgur.com/7v5ASc8.png) LAB =================================================",
-  "main": "index.js",
+  "main": "server.js",
   "directories": {
     "lib": "lib"
   },

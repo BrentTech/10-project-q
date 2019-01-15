@@ -2,8 +2,10 @@
 
 const Connection = require('../lib/subscriber.js');
 
-const networkQueue = new Connection('network');
+const netQueue = new Connection('network');
 
-networkQueue.subscribe('attack', (payload) => {
+netQueue.subscribe('attack', (payload) => {
   console.log('Shields Up!', payload);
 });
+
+console.log('logger is running');

@@ -9,8 +9,7 @@
 [![Build Status](https://www.travis-ci.com/BrentTech/10-project-q.svg?branch=master)](https://www.travis-ci.com/BrentTech/10-project-q)
 * [repo](https://github.com/BrentTech/10-project-q)
 * [travis](https://www.travis-ci.com/BrentTech/10-project-q)
-* [back-end](http://xyz.com)
-* [front-end](http://xyz.com)
+* [back-end](https://q-brent-jon.herokuapp.com)
 
 ### Modules
 #### `server.js`
@@ -30,7 +29,7 @@
 
 ### Setup
 #### `.env` requirements
-* `PORT` - 3000
+* `PORT` - 3333
 
 
 #### Running the app
